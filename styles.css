@@ -244,3 +244,64 @@ nav {
 }
 
 /*-----------------------------------------*/
+
+/*------- "My projects" page styles -------*/
+.my-projects-page {
+  position: absolute;
+  top: 2277px;
+  width: 1440px;
+  height: 910px;
+
+  background: rgba(255, 214, 150, 0.20);
+}
+
+.my-projects-header{
+  position: absolute;
+  top: 35px;
+  left: 488px;
+  width: 1440px;
+  height: 910px;
+
+  letter-spacing: 9.6px;
+  margin: 0;
+}
+
+.my-projects-page-text {
+  position: absolute;
+  top: 107px;
+  left: 412px;
+
+  color: #000;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  
+  margin: 0;
+}
+
+.images-table {
+  position: absolute;
+  top: 189px;
+  bottom: 65px;
+  left: 108px;
+  right: 191px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-basis: 600px;
+  align-content: space-between;
+}
+
+.push {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.images-table img {
+  width: 246px;
+  height: 180px;
+  border-radius: 6px;
+}
