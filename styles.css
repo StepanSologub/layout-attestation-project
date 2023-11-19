@@ -433,3 +433,52 @@ nav {
   width: 958px;
   height: auto;
 }
+
+/*-----------------------------------------*/
+
+/*-------------- Footer-styles ------------*/
+footer {
+  position: absolute;
+  top: 4983px;
+  width: 1440px;
+  height: 809px;
+  /* fill: rgba(255, 214, 150, 0.20); */
+}
+
+footer h1 {
+  position: absolute;
+}
+
+footer input {
+  position: absolute;
+}
+
+footer input::placeholder {
+  position: absolute;
+}
+
+footer button {
+  position: absolute;
+}
+
+footer .additional-info {
+  display: flex;
+}
+
+footer hr {
+  position: absolute;
+  top: 633px;
+  left: 59px;
+  right: 47px;
+  height: 3px;
+}
+
+footer p {
+  position: absolute;
+}
+
+footer .social-links {
+  position: absolute;
+}
+
+/*-----------------------------------------*/
