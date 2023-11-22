@@ -39,17 +39,19 @@ body {
   height: 5792px;
 }
 
-h1 {
+h2 {
   color: #2000e7;
   font: normal 700 48px / normal Poppins;
 }
 
 p {
-  font: normal 400 24px / normal Poppins;
+  font: normal 500 24px / normal Poppins;
 }
 
-[button-type^="hire-me-button"],
-[button-type^="my-projects-button"] {
+.hire-me-button,
+.my-projects-button {
+  /* [button-type^="hire-me-button"],
+[button-type^="my-projects-button"] { */
   position: absolute;
   width: 246px;
   height: 72px;
@@ -67,8 +69,10 @@ p {
   text-decoration: none;
 }
 
-[button-type^="hire-me-button"]:active,
-[button-type^="my-projects-button"]:active {
+.hire-me-button:active,
+.my-projects-button:active {
+  /* [button-type^="hire-me-button"]:active,
+[button-type^="my-projects-button"]:active { */
   background: #9a92ce;
 }
 
@@ -129,16 +133,20 @@ nav {
   margin-bottom: 21px;
 }
 
+.last-word {
+  color: #f2bd00;
+}
+
 .introduction-content {
   color: #383838;
 }
 
-[button-type^="hire-me-button-1"] {
+.home-page .hire-me-button {
   top: 716px;
   left: 77px;
 }
 
-[button-type^="my-projects-button"] {
+.home-page .my-projects-button {
   top: 716px;
   left: 402px;
   border: 2px solid #2000e7;
@@ -163,7 +171,7 @@ nav {
   background: rgba(67, 186, 253, 0.06);
 }
 
-.about-me-page h1 {
+.about-me-page h2 {
   position: absolute;
   top: 206px;
   left: 45px;
@@ -178,7 +186,7 @@ nav {
   color: #000;
 }
 
-[button-type^="hire-me-button-2"] {
+.about-me-page .hire-me-button {
   top: 620px;
   left: 77px;
 }
@@ -200,7 +208,7 @@ nav {
   background: rgba(255, 214, 150, 0.2);
 }
 
-.my-projects-page h1 {
+.my-projects-page h2 {
   position: absolute;
   top: 35px;
   left: 488px;
@@ -251,7 +259,7 @@ nav {
   background: rgba(67, 186, 253, 0.06);
 }
 
-.contact-me-page h1 {
+.contact-me-page h2 {
   position: absolute;
   top: 67px;
   left: 457px;
@@ -348,7 +356,7 @@ footer {
   background: rgba(255, 214, 150, 0.2);
 }
 
-footer h1 {
+footer h2 {
   position: absolute;
   top: 132px;
   left: 74px;
