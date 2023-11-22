@@ -29,13 +29,14 @@
   src: url("./assets/fonts/Jost-Bold.ttf") format("truetype");
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   width: 1440px;
   height: 5792px;
-  margin: 0;
-  padding: 0;
-  background-color: #fff;
-  font-weight: 500;
 }
 
 h1 {
@@ -49,6 +50,7 @@ h1 {
   width: 246px;
   height: 72px;
   border-radius: 10px;
+  background: #2000e7;
   box-shadow: 11px 21px 15px 6px rgba(0, 0, 0, 0.25);
 
   display: flex;
@@ -56,7 +58,7 @@ h1 {
   align-items: center;
 
   font: normal 400 24px / normal Poppins;
-  text-align: center;
+  color: #fff;
 
   text-decoration: none;
 }
@@ -70,15 +72,11 @@ h1 {
 
 /*---------- "Home page" styles -----------*/
 .logo {
-  color: #0e0578;
-
-  font: normal 700 48px / normal Poppins;
-
   position: absolute;
-  margin: 0;
   top: 45px;
   left: 78px;
-
+  color: #0e0578;
+  font: normal 700 48px / normal Poppins;
   text-decoration: none;
 }
 
@@ -89,11 +87,10 @@ nav {
 }
 
 .menu {
-  display: flex;
-  justify-content: space-between;
   width: 740px;
   height: 45px;
-  padding: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .menu li {
@@ -102,12 +99,7 @@ nav {
 
 .menu li a {
   color: #686565;
-  font-family: Poppins;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-
+  font: normal 400 30px / normal Poppins;
   text-decoration: none;
 }
 
@@ -120,41 +112,27 @@ nav {
   top: 318px;
   left: 78px;
   width: 616px;
-  height: 287px;
 }
 
 .greeting {
   color: #2000e7;
-  font-family: Poppins;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-
-  margin: 0 0 5px 0;
+  font: normal 400 30px / normal Poppins;
+  margin-bottom: 5px;
 }
 
 .introduction {
   width: 500px;
-  margin: 0 0 21px 0;
-  font-weight: 700;
+  margin-bottom: 21px;
 }
 
 .introduction-content {
   color: #383838;
-  font-family: Poppins;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  font: normal 400 24px / normal Poppins;
 }
 
 [button-type^="hire-me-button-1"] {
   top: 716px;
   left: 77px;
-  background: #2000e7;
-
-  color: #fff;
 }
 
 [button-type^="my-projects-button"] {
@@ -162,7 +140,6 @@ nav {
   left: 402px;
   border: 2px solid #2000e7;
   background: rgba(32, 0, 231, 0.04);
-
   color: #2000e7;
 }
 
@@ -180,17 +157,13 @@ nav {
   top: 1066px;
   width: 1440px;
   height: 910px;
-  flex-shrink: 0;
   background: rgba(67, 186, 253, 0.06);
 }
 
 .about-me-page h1 {
-  position: relative;
+  position: absolute;
   top: 206px;
   left: 45px;
-
-  margin: 0;
-
   letter-spacing: 16.8px;
 }
 
@@ -198,27 +171,14 @@ nav {
   position: absolute;
   top: 292px;
   left: 45px;
-
   width: 415px;
-  height: 303px;
-
   color: #000;
-
-  font-family: Poppins;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-
-  margin: 0;
+  font: normal 400 24px / normal Poppins;
 }
 
 [button-type^="hire-me-button-2"] {
   top: 620px;
   left: 77px;
-  background: #2000e7;
-
-  color: #fff;
 }
 
 .about-me-page img {
@@ -235,7 +195,6 @@ nav {
   top: 2277px;
   width: 1440px;
   height: 910px;
-
   background: rgba(255, 214, 150, 0.2);
 }
 
@@ -243,25 +202,16 @@ nav {
   position: absolute;
   top: 35px;
   left: 488px;
-
   color: #3b1fea;
   letter-spacing: 9.6px;
-  margin: 0;
 }
 
 .my-projects-page p {
   position: absolute;
   top: 107px;
   left: 412px;
-
   color: #000;
-  font-family: Poppins;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-
-  margin: 0;
+  font: normal 400 24px / normal Poppins;
 }
 
 .images-table {
@@ -274,7 +224,6 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  flex-basis: 600px;
   align-content: space-between;
 }
 
@@ -297,7 +246,6 @@ nav {
   top: 3459px;
   width: 1440px;
   height: 1316px;
-  font-weight: 500;
 
   background: rgba(67, 186, 253, 0.06);
 }
@@ -306,12 +254,9 @@ nav {
   position: absolute;
   top: 67px;
   left: 457px;
-
   color: #220be8;
   font-size: 64px;
   letter-spacing: 17.28px;
-
-  margin: 0;
 }
 
 .contact-me-page p {
@@ -320,15 +265,8 @@ nav {
   left: 435px;
   width: 591px;
   height: 36px;
-
   color: #000;
-  font-family: Poppins;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-
-  margin: 0;
+  font: normal 400 24px / normal Poppins;
 }
 
 .contact-me-page form {
@@ -338,7 +276,6 @@ nav {
 
   display: flex;
   flex-direction: column;
-
   width: 653px;
 }
 
@@ -346,7 +283,6 @@ nav {
   position: absolute;
   width: 1px;
   height: 1px;
-  padding: 0;
   overflow: hidden;
   white-space: nowrap;
   border: 0;
@@ -357,17 +293,13 @@ nav {
   height: 94px;
   background: #fff;
   box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
+  border: 0;
 
   color: #000;
-  font-family: Poppins;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  font: normal 400 32px / normal Poppins;
 
   margin-bottom: 81px;
   padding-left: 55px;
-  border: 0;
   box-sizing: border-box;
 }
 
@@ -381,11 +313,6 @@ nav {
 .contact-me-page input::placeholder,
 .contact-me-page textarea::placeholder {
   color: #000;
-  font-family: Poppins;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
 
 .contact-me-page button {
@@ -393,14 +320,10 @@ nav {
   height: 94px;
   background: #fff;
   box-shadow: 13px 21px 4px 0px rgba(0, 0, 0, 0.25);
+  border: 0;
 
   color: #000;
-  font-family: Poppins;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  border: 0;
+  font: normal 400 32px / normal Poppins;
 
   cursor: pointer;
 
@@ -411,9 +334,7 @@ nav {
   position: absolute;
   top: 189px;
   left: 584px;
-
   width: 958px;
-  height: auto;
 }
 
 /*-----------------------------------------*/
@@ -430,12 +351,10 @@ footer {
 footer h1 {
   position: absolute;
   top: 132px;
-  left: 34px;
+  left: 74px;
   color: #0e0578;
   width: 386px;
-  height: 72px;
   letter-spacing: 16.8px;
-  margin: 0;
 }
 
 footer input {
@@ -445,27 +364,17 @@ footer input {
   width: 323px;
   height: 97px;
   border-radius: 30px;
+  border: none;
   background: #000;
   box-sizing: border-box;
-  margin: 0;
-  border: none;
-  padding: 0 0 0 33px;
+  padding-left: 33px;
 
   color: #fff;
-  font-family: "Jost";
-  font-size: 31px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+  font: normal 700 31px / normal Jost;
 }
 
 footer input::placeholder {
   color: #fff;
-  font-family: "Jost";
-  font-size: 31px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
 }
 
 footer button {
@@ -477,15 +386,9 @@ footer button {
   border-radius: 30px;
   background: #f965fc;
   border: none;
-  padding: 0;
 
   color: #fff;
-
-  font-family: Jost;
-  font-size: 31px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+  font: normal 700 31px / normal Jost;
 }
 
 footer .additional-info {
@@ -500,20 +403,14 @@ footer .additional-info {
 }
 
 .additional-info ul {
-  margin: 0;
-  list-style-type: none;
-  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 
   color: #000;
+  font: normal 400 31px / normal Jost;
 
-  font-family: Jost;
-  font-size: 31px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  list-style-type: none;
 }
 
 .additional-info ul li:first-child {
@@ -537,22 +434,15 @@ footer hr {
   height: 3px;
   background-color: #000;
   border: none;
-  margin: 0;
 }
 
 .copyright {
   position: absolute;
   top: 713px;
   left: 47px;
-  margin: 0;
-  width: 639px;
 
   color: #000;
-  font-family: Jost;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  font: normal 400 32px / normal Jost;
 }
 
 footer .social-links {
