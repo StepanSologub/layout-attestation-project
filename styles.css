@@ -44,6 +44,10 @@ h1 {
   font: normal 700 48px / normal Poppins;
 }
 
+p {
+  font: normal 400 24px / normal Poppins;
+}
+
 [button-type^="hire-me-button"],
 [button-type^="my-projects-button"] {
   position: absolute;
@@ -116,7 +120,7 @@ nav {
 
 .greeting {
   color: #2000e7;
-  font: normal 400 30px / normal Poppins;
+  font-size: 30px;
   margin-bottom: 5px;
 }
 
@@ -127,7 +131,6 @@ nav {
 
 .introduction-content {
   color: #383838;
-  font: normal 400 24px / normal Poppins;
 }
 
 [button-type^="hire-me-button-1"] {
@@ -173,7 +176,6 @@ nav {
   left: 45px;
   width: 415px;
   color: #000;
-  font: normal 400 24px / normal Poppins;
 }
 
 [button-type^="hire-me-button-2"] {
@@ -211,7 +213,6 @@ nav {
   top: 107px;
   left: 412px;
   color: #000;
-  font: normal 400 24px / normal Poppins;
 }
 
 .images-table {
@@ -266,7 +267,6 @@ nav {
   width: 591px;
   height: 36px;
   color: #000;
-  font: normal 400 24px / normal Poppins;
 }
 
 .contact-me-page form {
