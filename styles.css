@@ -37,6 +37,8 @@
 body {
   width: 1440px;
   height: 5792px;
+  position: absolute;
+  left: calc( (100vw / 2) - 1440px / 2);
 }
 
 h2 {
@@ -50,8 +52,6 @@ p {
 
 .hire-me-button,
 .my-projects-button {
-  /* [button-type^="hire-me-button"],
-[button-type^="my-projects-button"] { */
   position: absolute;
   width: 246px;
   height: 72px;
@@ -71,8 +71,6 @@ p {
 
 .hire-me-button:active,
 .my-projects-button:active {
-  /* [button-type^="hire-me-button"]:active,
-[button-type^="my-projects-button"]:active { */
   background: #9a92ce;
 }
 
